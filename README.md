@@ -1,13 +1,20 @@
-# Codes of projects in Full Stack Developer Nanodegree by Udacity
+# Source Codes of projects in Full Stack Developer Nanodegree by Udacity
 
-## Project 1: Movie Trailer Website
+## Old Version of this Nanodegree
 
-## Project 2: Portfolio Site
+### Project 1: Movie Trailer Website
 
-## Project 3: Logs Analysis
+### Project 2: Portfolio Site
 
-## Project 4: Item Catalog
+### Project 3: Logs Analysis
 
-## Project 5: Neighborhood Map
+### Project 4: Item Catalog
 
-## Project 6: Linux Server Configuration
+### Project 5: Neighborhood Map
+
+### Project 6: Linux Server Configuration
+
+## New Version of this Nanodegree
+
+(unfinished)
+
