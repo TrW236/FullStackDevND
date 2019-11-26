@@ -1,0 +1,128 @@
+#Header{
+    padding-top: 5px;
+    width: 100%;
+    padding-bottom: 5px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    font-family: "Franklin ITC",sans-serif;
+    font-weight: bold;
+    vertical-align: middle;
+    display: table;
+    /*align-items: center;*/
+}
+
+.smallTitle{
+    font-family: "Franklin ITC",sans-serif;
+    font-weight: bold;
+    color:blue;
+}
+
+.text{
+    font-family: "Franklin ITC",sans-serif;
+    font-size: medium;
+    color:black;
+}
+
+.white{
+    color:white;
+}
+
+.xx-large-size{
+    font-size: xx-large;
+}
+
+.left{
+    display: table-cell;
+    padding-left: 5px;
+    float:left;
+}
+
+.bg-gray{
+    background-color: #404040;
+}
+
+.right{
+    display: table-cell;
+    padding-right:5px;
+    float:right;
+}
+
+.fullWide{
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.betweenLine{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    /*padding: 100px;*/
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.smallContainer{
+    box-sizing: border-box;
+    padding: 15px;
+    width:25%;
+}
+
+.smallImg{
+    width:100%;
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.sec-title{
+    font-family: "Franklin ITC",sans-serif;
+    font-weight: bold;
+    color:darkblue;
+    text-align: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    font-family: "Franklin ITC",sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color:darkblue;
+    margin: 10px;
+}
+
+@media screen and (max-width: 850px){
+    .smallContainer{
+        box-sizing: border-box;
+        padding: 15px;
+        width:50%;
+    }
+
+    .xx-large-size{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .smallContainer{
+        box-sizing: border-box;
+        padding: 15px;
+        width:100%;
+    }
+
+    .xx-large-size{
+        font-size: large;
+    }
+}
