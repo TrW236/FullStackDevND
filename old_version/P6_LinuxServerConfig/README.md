@@ -14,6 +14,7 @@
 ## change the default ssh port
 * `sudo vi /etc/ssh/sshd_config`: fine the `Port` line and edit it to 2200
 * Set the firewall configuration on Lightsail:
+    
     |Application|Protocol|Port Range|
     |---|---|---|
     |ALL TCP+UDP|ALL|0-65535|
