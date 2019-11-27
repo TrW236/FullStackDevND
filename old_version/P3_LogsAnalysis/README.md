@@ -4,11 +4,12 @@
 
 ### Virtual Environment
 
-* Download the `VirtualBox` via [VirtualBox official download page](https://www.virtualbox.org/wiki/Downloads)
-    * This step may not be necessary
+* Download the `VirtualBox` via [VirtualBox official download page](https://www.virtualbox.org/wiki/Downloads) and install `VirtualBox`
 * Download `vagrant` via [Vagrant official download page](https://www.vagrantup.com/downloads.html)
-* Unzip the downloaded file
-* Move the executable binary file into the environment folder via `sudo mv vagrant /usr/bin`
+    * Unzip the downloaded file
+    * Move the executable binary file into the environment folder via `sudo mv vagrant /usr/bin`
+
+#### Run the `Vagrant` virtual machine
 * In the terminal, run `sudo vagrant up` to install or (re-)start the virtual environment
 * In the terminal, run `sudo vagrant ssh` to connect to the virtual environment
 * type `cd /vagrant` into the working folder
