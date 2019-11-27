@@ -1,0 +1,9 @@
+note
+grader_key
+static
+templates
+*.db
+client_secrets.json
+database_setup.py
+finalproject.py
+lotsofcourses.py
